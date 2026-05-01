@@ -1,25 +1,48 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta charset="utf-8">
-<title>SIDFX Redirect</title>
+  <meta charset="utf-8">
+  <title>Site moved</title>
 
-<meta http-equiv="refresh"
-content="0; url=https://lotuselec.wixsite.com/sidfx">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<link rel="canonical"
-href="https://lotuselec.wixsite.com/sidfx">
+  <!-- Optional: helps browsers understand this is the canonical target -->
+  <link rel="canonical" href="https://lotuselec.wixsite.com/sidfx">
+
+  <style>
+    body {
+      font-family: system-ui, Arial, sans-serif;
+      text-align: center;
+      padding: 60px 20px;
+      color: #222;
+    }
+    .box {
+      max-width: 500px;
+      margin: auto;
+    }
+  </style>
+
+  <script>
+    // Redirect everything (including /about, /anything, etc.)
+    setTimeout(function () {
+      window.location.replace("https://lotuselec.wixsite.com/sidfx");
+    }, 2000);
+  </script>
 </head>
 
 <body>
-<p>
-Redirecting to the new website...
-</p>
+  <div class="box">
+    <h1>Website moved</h1>
+    <p>This site has been moved to a new location.</p>
+    <p>You will be redirected automatically in a moment.</p>
 
-<p>
-<a href="https://lotuselec.wixsite.com/sidfx">
-Click here if redirect does not work
-</a>
-</p>
+    <p>
+      If nothing happens, click here:
+      <br>
+      <a href="https://lotuselec.wixsite.com/sidfx">
+        Continue to new site
+      </a>
+    </p>
+  </div>
 </body>
 </html>
